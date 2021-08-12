@@ -1,0 +1,20 @@
+{
+  "name": "login_example1",
+  "version": "1.0.0",
+  "description": "login example practice",
+  "main": "index.js",
+  "scripts": {
+    "start:watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reka Thasma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
